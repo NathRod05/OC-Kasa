@@ -1,14 +1,9 @@
-import Home from './components/Home'
-
+import RouterKasa from './components/RouterKasa'
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Home />
-
-      <Home /><Home />
-    </div>
+      <RouterKasa />
   );
 }
+
 
 export default App;

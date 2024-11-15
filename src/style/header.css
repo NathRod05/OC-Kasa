@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 57px;
+}
+
+.link{
+    color: #000;
+    text-decoration: none;
+    border-bottom: #FFFFFF 1px solid;
+}
+
+.link:hover{
+    border-bottom: solid black 1px;
+}
