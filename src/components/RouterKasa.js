@@ -1,17 +1,23 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
-import Footer from './components/Footer'
+import Home from './Home'
+import Header from './Header'
+import About from './About'
+import Footer from './Footer'
+import NotFound from './NotFound'
 
 function RouterKasa() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/footer" element={<Footer />} />
-      </Routes>
-    </Router>
-  )
+    return (
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+        </Router>
+    )
 }
 
 export default RouterKasa
