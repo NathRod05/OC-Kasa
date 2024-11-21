@@ -1,27 +1,13 @@
 import '../style/card.css'
-import PropTypes from 'prop-types'
-// import {dataList} from '../data.json'
 
-function Card({ id, title, picture }) {
+function Card({ id, title, cover }) {
   return (
-    <div>
+    <div className="cards">
       <span>{id}</span>
-      <img src={picture} alt="#" />
-      <span>{title}</span>
+      <img className="image" src={cover} alt="#" />
+      <span className="description">{title}</span>
     </div>
   )
 }
 
-Card.propTypes = {
-  id: PropTypes.string,
-  title: PropTypes.string,
-  picture: PropTypes.string,
-}
-
-// {dataList.map((data) => (
-//     <li key={data.id}>
-//         {data.name}
-//         {data.img}
-//     </li>
-// ))}
 export default Card

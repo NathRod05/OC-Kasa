@@ -1,17 +1,17 @@
-import '../style/home.css'
-import Header from './Header'
+import '../style/style.css'
 import Banner from './Banner'
 import Card from './Card'
-import Footer from './Footer'
+import data from '../data.json'
+
 function Home() {
-    return (
-        <div className="home">
-            <Header />
-            <Banner />
-            <Card />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="style">
+      <Banner />
+      {data.map((card) => {
+        return <Card key={card.id} title={card.title} cover={card.cover} />
+      })}
+    </div>
+  )
 }
 
-export default Home;
+export default Home
