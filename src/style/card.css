@@ -1,0 +1,15 @@
+.cards {
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 340px;
+}
+
+.description {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,22 +1,25 @@
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 50px;
+.header {
+  max-width: 1240px;
+  margin: 45px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-bar{
-    display: flex;
-    gap: 57px;
+.nav-bar {
+  display: flex;
+  gap: 57px;
 }
 
-.link{
-    color: #000;
-    text-decoration: none;
-    border-bottom: #FFFFFF 1px solid;
+.link {
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  border-bottom: #ffffff 1px solid;
 }
 
-.link:hover{
-    border-bottom: solid black 1px;
+.link:hover {
+  border-bottom: solid black 1px;
 }
