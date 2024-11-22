@@ -1,15 +1,44 @@
 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 56px 50px 43px 50px;
 }
-
+.card {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
 .image {
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   width: 340px;
   height: 340px;
 }
 
-.tilte {
+.title {
+  display: flex;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+  width: 245px;
+  height: 52px;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    background: none;
+    padding: 0px;
+  }
+  .image {
+    width: 100%;
+    height: 255px;
+  }
 }
