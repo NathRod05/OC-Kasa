@@ -1,10 +1,11 @@
 import logo from '../assets/logo-header.png'
 import '../style/header.css'
+import '../style/style.css'
 
 function header() {
   return (
-    <div className="header">
-      <img src={logo} className="" alt="logo header" />
+    <div className="header style">
+      <img src={logo} className="logo" alt="logo header" />
       <nav className="nav-bar">
         <a href="/" className="link">
           Accueil

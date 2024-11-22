@@ -5,7 +5,7 @@ function Card({ id, title, cover }) {
     <div className="cards">
       <span>{id}</span>
       <img className="image" src={cover} alt="#" />
-      <span className="description">{title}</span>
+      <span className="title">{title}</span>
     </div>
   )
 }

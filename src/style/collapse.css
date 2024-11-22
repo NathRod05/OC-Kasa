@@ -1,0 +1,33 @@
+.collapse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1023px;
+  background: blue;
+  border-radius: 5px;
+}
+.collapse__btn {
+  font-family: Montserrat;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 10px 20px 10px 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+  background: #ff6060;
+  border: none;
+}
+
+.fa-chevron-up {
+  padding-top: 7px;
+}
+
+.descritpion {
+  font-family: Montserrat;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+}
