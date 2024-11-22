@@ -1,6 +1,4 @@
 .header {
-  max-width: 1240px;
-  margin: 45px 100px 0px 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,4 +20,15 @@
 
 .link:hover {
   border-bottom: solid black 1px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 145px;
+    height: 47px;
+  }
+
+  .nav-bar {
+    gap: 26px;
+  }
 }

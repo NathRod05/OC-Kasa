@@ -19,3 +19,13 @@
   padding-top: 29px;
   padding-bottom: 29px;
 }
+
+@media (max-width: 768px) {
+  .text-footer {
+    display: flex;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 12px;
+    width: 133px;
+  }
+}
