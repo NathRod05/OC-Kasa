@@ -1,0 +1,7 @@
+.container_collapse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 38px;
+}
