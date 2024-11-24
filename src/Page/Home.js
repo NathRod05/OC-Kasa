@@ -1,16 +1,23 @@
 import '../style/style.css'
+import '../style/home.css'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import data from '../data.json'
-import '../style/card.css'
 
 function Home() {
   return (
-    <div className="style">
+    <div className="page">
       <Banner />
       <div className="cards">
         {data.map((card) => {
-          return <Card key={card.id} title={card.title} cover={card.cover} />
+          return (
+            <Card
+              key={card}
+              id={card.id}
+              title={card.title}
+              cover={card.cover}
+            />
+          )
         })}
       </div>
     </div>
