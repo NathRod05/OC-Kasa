@@ -1,0 +1,17 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 56px 50px 43px 50px;
+  margin-bottom: 50px;
+  gap: 0px 40px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    background: none;
+    padding: 0px;
+  }
+}
