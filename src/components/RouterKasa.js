@@ -5,6 +5,7 @@ import Header from './Header'
 import About from '../Page/About'
 import Footer from './Footer'
 import NotFound from './NotFound'
+import Accommodation from '../Page/Accommodation'
 
 function RouterKasa() {
   return (
@@ -13,6 +14,7 @@ function RouterKasa() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/accommodation" element={<Accommodation />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
