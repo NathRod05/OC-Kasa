@@ -4,7 +4,7 @@ import '../style/style.css'
 
 function header() {
   return (
-    <div className="header style">
+    <div className="header page">
       <img src={logo} className="logo" alt="logo header" />
       <nav className="nav-bar">
         <a href="/" className="link">

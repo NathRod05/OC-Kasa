@@ -3,7 +3,7 @@ import NotFound from '../components/NotFound'
 
 function Error() {
   return (
-    <div className="style">
+    <div className="page">
       <NotFound />
     </div>
   )
