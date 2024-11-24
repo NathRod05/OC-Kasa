@@ -1,10 +1,10 @@
-.style {
+.page {
   max-width: 1240px;
   margin: 45px 100px 0px 100px;
 }
 
 @media (max-width: 768px) {
-  .style {
+  .page {
     margin: 20px 20px 0px 20px;
   }
 }
