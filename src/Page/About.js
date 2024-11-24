@@ -1,20 +1,24 @@
 import Collapse from '../components/Collapse'
 import Banner from '../components/Banner'
+import '../style/style.css'
+import '../style/about.css'
 import about from '../about.json'
 
 function About() {
   return (
-    <div className="style">
+    <div className="page">
       <Banner />
-      {about.map((collapse) => {
-        return (
-          <Collapse
-            key={collapse}
-            title={collapse.title}
-            description={collapse.description}
-          />
-        )
-      })}
+      <div className="container_collapse">
+        {about.map((collapse) => {
+          return (
+            <Collapse
+              key={collapse}
+              title={collapse.title}
+              description={collapse.description}
+            />
+          )
+        })}
+      </div>
     </div>
   )
 }
