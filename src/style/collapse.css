@@ -31,3 +31,23 @@
   font-weight: 400;
   margin: 0px;
 }
+
+@media (max-width: 768px) {
+  .collapse {
+    width: 100%;
+  }
+
+  .collapse__btn {
+    padding: 10px;
+    height: 32px;
+    font-size: 13px;
+  }
+
+  .descritpion {
+    font-size: 12px;
+  }
+
+  .fa-chevron-up {
+    padding-top: 1px;
+  }
+}
