@@ -12,7 +12,7 @@ function Home() {
         {data.map((card) => {
           return (
             <Card
-              key={card}
+              key={card.id}
               id={card.id}
               title={card.title}
               cover={card.cover}
