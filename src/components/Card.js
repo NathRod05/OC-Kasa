@@ -3,10 +3,12 @@ import '../style/card.css'
 function Card({ id, title, cover }) {
   return (
     <div className="card">
-      <span>{id}</span>
+      <div className="hidden">{id}</div>
       <div>
-        <img className="image" src={cover} alt="#" />
-        <span className="title">{title}</span>
+        <a href={`/accommodation/${id}`}>
+          <img className="image" src={cover} alt="#" />
+        </a>
+        <div className="title">{title}</div>
       </div>
     </div>
   )
