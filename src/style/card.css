@@ -1,3 +1,6 @@
+.hidden {
+  display: none;
+}
 .image {
   object-fit: cover;
   border-radius: 10px;
