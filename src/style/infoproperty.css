@@ -1,0 +1,32 @@
+.contenair-1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.host-name {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 93px;
+  height: 52px;
+  color: #ff6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 33px;
+}
