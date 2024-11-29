@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1240px;
   height: 415px;
 }
 
@@ -29,4 +28,7 @@
   z-index: 1;
   font-size: 100px;
   color: #fff;
+}
+
+@media (max-width: 768px) {
 }
