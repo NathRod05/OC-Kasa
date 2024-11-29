@@ -1,5 +1,6 @@
 import '../style/style.css'
 import '../style/home.css'
+import banner from '../assets/eric-muhr.png'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import data from '../data.json'
@@ -7,7 +8,7 @@ import data from '../data.json'
 function Home() {
   return (
     <div className="page">
-      <Banner />
+      <Banner image={banner} accueil={true} />
       <div className="cards">
         {data.map((card) => {
           return (
