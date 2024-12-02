@@ -37,6 +37,10 @@
   padding-right: 16px;
 }
 
+.line-break {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .banner-img {
     height: 111px;
@@ -50,5 +54,8 @@
     font-size: 24px;
     padding-left: 0px;
     left: 16px;
+  }
+  .line-break {
+    display: block;
   }
 }
