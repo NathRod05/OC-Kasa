@@ -8,6 +8,7 @@
   flex-direction: row;
   width: 340px;
   height: 340px;
+  cursor: pointer;
 }
 
 .title {
