@@ -8,7 +8,10 @@ function banner({ image, accueil }) {
       {accueil && (
         <>
           <div className="overlay"></div>
-          <h1 className="text-image">Chez vous, partout et ailleurs</h1>
+          <h1 className="text-image">
+            Chez vous, <br className="line-break" />
+            partout et ailleurs
+          </h1>
         </>
       )}
     </div>
