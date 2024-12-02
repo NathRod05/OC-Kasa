@@ -31,4 +31,7 @@
   .nav-bar {
     gap: 26px;
   }
+  .link {
+    text-transform: uppercase;
+  }
 }
