@@ -13,6 +13,7 @@ function About() {
         {about.map((collapse) => {
           return (
             <Collapse
+              className="collapse"
               key={collapse}
               title={collapse.title}
               description={collapse.description}
