@@ -14,15 +14,24 @@ function Carrousel({ pictures }) {
 
   return (
     <div className="contenair">
-      <i
-        className="fa-solid fa-chevron-left left-arrow"
-        onClick={prevSlide}
-      ></i>
+      {pictures.length >= 2 ? (
+        <i
+          className="fa-solid fa-chevron-left left-arrow"
+          onClick={prevSlide}
+        ></i>
+      ) : null}
       <img className="pictures" src={pictures[currentSlide]} alt="#" />
-      <i
-        className="fa-solid fa-chevron-right right-arrow"
-        onClick={nextSlide}
-      ></i>
+      {pictures.length >= 2 ? (
+        <p className="scale">
+          {currentSlide + 1}/{pictures.length}
+        </p>
+      ) : null}
+      {pictures.length >= 2 ? (
+        <i
+          className="fa-solid fa-chevron-right right-arrow"
+          onClick={nextSlide}
+        ></i>
+      ) : null}
     </div>
   )
 }
