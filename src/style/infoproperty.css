@@ -109,6 +109,10 @@
     width: 100%;
     margin-top: 16px;
   }
+
+  .rating {
+    justify-content: initial;
+  }
   .info {
     flex-direction: column;
     gap: 20px;
