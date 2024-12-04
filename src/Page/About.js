@@ -14,7 +14,7 @@ function About() {
           return (
             <Collapse
               className="collapse"
-              key={collapse}
+              key={collapse.title}
               title={collapse.title}
               description={collapse.description}
             />
