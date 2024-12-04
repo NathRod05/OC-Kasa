@@ -1,8 +1,8 @@
 .collapse {
   width: 80%;
-  background: #f6f6f673;
   border-radius: 5px;
 }
+
 .collapse__btn {
   font-family: Montserrat;
   display: flex;
@@ -15,18 +15,26 @@
   width: 100%;
   background: #ff6060;
   border: none;
+  cursor: pointer;
 }
 
 .fa-chevron-up {
   padding-top: 7px;
 }
 
-.descritpion {
+.description {
+  background: #f6f6f673;
   font-family: Montserrat;
   padding: 20px;
   font-size: 18px;
   font-weight: 400;
   margin: 0px;
+}
+
+.description-content {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.7s;
 }
 
 @media (max-width: 768px) {
