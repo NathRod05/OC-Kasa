@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Home from '../Page/Home'
 import Header from './Header'
 import About from '../Page/About'
@@ -15,7 +15,8 @@ function RouterKasa() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/accommodation/:id" element={<Accommodation />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/error404" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="/error404" />} />
       </Routes>
       <Footer />
     </Router>

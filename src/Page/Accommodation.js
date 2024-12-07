@@ -1,16 +1,15 @@
-import { useParams } from 'react-router'
+import {Navigate, useParams } from 'react-router'
 import '../style/style.css'
 import data from '../data.json'
 import Carrousel from '../components/Carrousel'
 import InfoProperty from '../components/InfoProperty'
-import Error from './Error'
 
 function Accommodation() {
   const { id } = useParams()
   const property = data.find((item) => item.id === id)
 
   if (!property) {
-    return <Error />
+    return <Navigate to="/error404" />
   }
   return (
     <div className="page">
