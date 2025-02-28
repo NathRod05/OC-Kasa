@@ -1,6 +1,7 @@
 .hidden {
   display: none;
 }
+
 .image {
   object-fit: cover;
   border-radius: 10px;
@@ -9,6 +10,10 @@
   width: 340px;
   height: 340px;
   cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
 }
 
 .title {
