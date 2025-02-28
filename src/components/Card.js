@@ -7,8 +7,8 @@ function Card({ id, title, cover }) {
       <div>
         <a href={`/accommodation/${id}`}>
           <img className="image" src={cover} alt="#" />
+          <div className="title">{title}</div>
         </a>
-        <div className="title">{title}</div>
       </div>
     </div>
   )
